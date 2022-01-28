@@ -1,0 +1,43 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+h2{
+    text-align: center;
+    margin: 3px 0px;
+}
+.container{    
+    display: flex;
+    min-height: 87vh;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.container h2{
+    font-family: 'Baloo Bhaijaan 2', cursive;   
+}    
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.myInput{
+    padding: 5px;
+    margin: 4px;
+    width: 288px;
+    text-align: center;
+    font-size: 17px;
+    border: 2px solid #932828;
+    outline: none;
+    border-radius: 8px;
+}
+.btn{
+    padding: 4px 17px;
+    margin: 15px;
+    border: 2px solid rgb(41, 41, 41);
+    border-radius: 9px;
+    background-color: #0a5346;
+    color: white;
+}
